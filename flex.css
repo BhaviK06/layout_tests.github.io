@@ -1,0 +1,10 @@
+h1 {
+    align-items: center;
+}
+
+.flex-container { 
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
