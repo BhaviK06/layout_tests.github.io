@@ -54,6 +54,9 @@ h1 {
 .card p {
     margin-bottom: 0;
 }
+nav{
+    align-items: center;
+}
 nav a{
     align-items: center;
     font-size: medium;
