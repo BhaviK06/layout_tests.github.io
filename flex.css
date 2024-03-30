@@ -1,14 +1,19 @@
-h1 {
-    /* To center the h1 vertically within its parent container */
-    margin: 0; /* Reset default margin */
-    display: flex; /* Enable flex properties */
-    align-items: center; /* Vertically center the h1 */
+body, html {
+    height: 100%; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
+h1 {
+    margin: 0; }
+
+/* CSS for .flex-container */
 .flex-container {
     display: flex;
-    height: 600px;
+    height: 600px; 
     flex-wrap: wrap;
-    align-items: center; /* Center flex items vertically */
-    justify-content: space-between; /* Space items horizontally */
+    align-content: space-between; 
+    justify-content: space-between; 
 }
