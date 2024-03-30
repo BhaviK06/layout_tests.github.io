@@ -56,8 +56,11 @@ h1 {
 }
 nav{
     align-items: center;
+    text-align: center;
 }
+
 nav a{
     align-items: center;
     font-size: medium;
+    text-align: center;
 }
